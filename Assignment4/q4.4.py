@@ -1,0 +1,6 @@
+input_string = input("Enter a sequence of whitespace-separated words: ")
+words = input_string.split()
+unique_words = list(set(words))
+unique_words.sort()
+sorted_unique_words = ' '.join(unique_words)
+print(f"Output: {sorted_unique_words}")

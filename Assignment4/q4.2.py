@@ -1,0 +1,5 @@
+input_string = input("Enter a comma-separated sequence of words: ")
+words = input_string.split(',')
+words.sort()
+sorted_words = ','.join(words)
+print(f"Sorted words: {sorted_words}")
